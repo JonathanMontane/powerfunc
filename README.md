@@ -32,7 +32,7 @@ go get github.com/jonathanmontane/powerfunc
 
 ## Why?
 
-This package is mostly an experiment to see how far we can push the language. **It is not intended to be used in production**, or at the very least, not in performance critical code (this creates a lot of function calls and allocations, since it's just higher order funcs under the hood).
+This package is mostly a 1-weekend experiment to see how far we can push the language. **It is not intended to be used in production**, or at the very least, not in performance critical code (this creates a lot of function calls and allocations, since it's just higher order funcs under the hood).
 
 ### What's cool about it!
 
