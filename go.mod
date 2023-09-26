@@ -1,3 +1,3 @@
-module github.com/jonathanmontane/powerfunc/v2
+module github.com/jonathanmontane/powerfunc
 
 go 1.21
