@@ -55,9 +55,8 @@ var pf powerfunc.FuncResult = myFunc
 // pf is now a powerfunc, you can use it anywhere you would
 // use myFunc but now with batteries included
 
-// alternatively, you can use the casting syntax, but this can
-// make you believe that we're wrapping myFunc with something
-// else, which is not the case. `pf` _is_ `myFunc`.
+// alternatively, you can use the casting syntax, but the function
+// will still be transparently casted to a function i.e `pf` ~ `myFunc`.
 pf := powerfunc.FuncResult(myFunc)
 ```
 
